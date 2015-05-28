@@ -11,9 +11,9 @@ TableView Cell DetailLabelTextBug
 
 解決方式
 -----------
-塞入資料前先檢查資料
+-方式一：塞入資料前先檢查資料
 ```objective-c
-if([infoItem valueForKey:@"value"] == nil || [[infoItem valueForKey:@"value"] isEqual @""]){
+if([infoItem valueForKey:@"value"] == nil || [[infoItem valueForKey:@"value"] isEqual: @""]){
 cell.detailTextLabel.text  = @" ";
 }else{
 cell.detailTextLabel.text  = [infoItem valueForKey:@"value"];
@@ -22,3 +22,7 @@ cell.detailTextLabel.text  = [infoItem valueForKey:@"value"];
 
 ```
 
+-方式二：使用 stringWithFormat
+```objective-c
+cell.detailTextLabel.text  = [NSString stringWithFormat:@"%@ ",[infoItem valueForKey:@"value"]];
+```
