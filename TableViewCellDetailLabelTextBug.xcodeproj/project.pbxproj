@@ -12,19 +12,8 @@
 		1305536F1B16FC1700AFDE5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1305536D1B16FC1700AFDE5A /* Main.storyboard */; };
 		130553711B16FC1700AFDE5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130553701B16FC1700AFDE5A /* Images.xcassets */; };
 		130553741B16FC1700AFDE5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 130553721B16FC1700AFDE5A /* LaunchScreen.xib */; };
-		130553801B16FC1700AFDE5A /* TableViewDetailTextLabelBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1305537F1B16FC1700AFDE5A /* TableViewDetailTextLabelBugTests.m */; };
 		1305538B1B16FC5C00AFDE5A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1305538A1B16FC5C00AFDE5A /* TableViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1305537A1B16FC1700AFDE5A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 130553581B16FC1700AFDE5A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1305535F1B16FC1700AFDE5A;
-			remoteInfo = TableViewDetailTextLabelBug;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		130553601B16FC1700AFDE5A /* TableViewCellDetailLabelTextBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewCellDetailLabelTextBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,7 +24,6 @@
 		1305536E1B16FC1700AFDE5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		130553701B16FC1700AFDE5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		130553731B16FC1700AFDE5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		130553791B16FC1700AFDE5A /* TableViewCellDetailLabelTextBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCellDetailLabelTextBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1305537E1B16FC1700AFDE5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1305537F1B16FC1700AFDE5A /* TableViewDetailTextLabelBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDetailTextLabelBugTests.m; sourceTree = "<group>"; };
 		130553891B16FC5C00AFDE5A /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
@@ -44,13 +32,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		1305535D1B16FC1700AFDE5A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		130553761B16FC1700AFDE5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				130553601B16FC1700AFDE5A /* TableViewCellDetailLabelTextBug.app */,
-				130553791B16FC1700AFDE5A /* TableViewCellDetailLabelTextBugTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,24 +119,6 @@
 			productReference = 130553601B16FC1700AFDE5A /* TableViewCellDetailLabelTextBug.app */;
 			productType = "com.apple.product-type.application";
 		};
-		130553781B16FC1700AFDE5A /* TableViewCellDetailLabelTextBugTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 130553861B16FC1700AFDE5A /* Build configuration list for PBXNativeTarget "TableViewCellDetailLabelTextBugTests" */;
-			buildPhases = (
-				130553751B16FC1700AFDE5A /* Sources */,
-				130553761B16FC1700AFDE5A /* Frameworks */,
-				130553771B16FC1700AFDE5A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1305537B1B16FC1700AFDE5A /* PBXTargetDependency */,
-			);
-			name = TableViewCellDetailLabelTextBugTests;
-			productName = TableViewDetailTextLabelBugTests;
-			productReference = 130553791B16FC1700AFDE5A /* TableViewCellDetailLabelTextBugTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +130,6 @@
 				TargetAttributes = {
 					1305535F1B16FC1700AFDE5A = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					130553781B16FC1700AFDE5A = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 1305535F1B16FC1700AFDE5A;
 					};
 				};
 			};
@@ -189,7 +147,6 @@
 			projectRoot = "";
 			targets = (
 				1305535F1B16FC1700AFDE5A /* TableViewCellDetailLabelTextBug */,
-				130553781B16FC1700AFDE5A /* TableViewCellDetailLabelTextBugTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,13 +159,6 @@
 				1305536F1B16FC1700AFDE5A /* Main.storyboard in Resources */,
 				130553741B16FC1700AFDE5A /* LaunchScreen.xib in Resources */,
 				130553711B16FC1700AFDE5A /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		130553771B16FC1700AFDE5A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +175,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		130553751B16FC1700AFDE5A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				130553801B16FC1700AFDE5A /* TableViewDetailTextLabelBugTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1305537B1B16FC1700AFDE5A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1305535F1B16FC1700AFDE5A /* TableViewCellDetailLabelTextBug */;
-			targetProxy = 1305537A1B16FC1700AFDE5A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1305536D1B16FC1700AFDE5A /* Main.storyboard */ = {
@@ -363,40 +297,6 @@
 			};
 			name = Release;
 		};
-		130553871B16FC1700AFDE5A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TableViewDetailTextLabelBugTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = TableViewCellDetailLabelTextBugTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewDetailTextLabelBug.app/TableViewDetailTextLabelBug";
-			};
-			name = Debug;
-		};
-		130553881B16FC1700AFDE5A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TableViewDetailTextLabelBugTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = TableViewCellDetailLabelTextBugTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewDetailTextLabelBug.app/TableViewDetailTextLabelBug";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,15 +314,6 @@
 			buildConfigurations = (
 				130553841B16FC1700AFDE5A /* Debug */,
 				130553851B16FC1700AFDE5A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		130553861B16FC1700AFDE5A /* Build configuration list for PBXNativeTarget "TableViewCellDetailLabelTextBugTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				130553871B16FC1700AFDE5A /* Debug */,
-				130553881B16FC1700AFDE5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
